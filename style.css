@@ -87,3 +87,30 @@
 .tobehover:hover .infoexm{
     visibility: visible;
 }
+
+.logoinfo .logoinfos{
+    position: fixed;
+    z-index: 4; 
+    background-image: url(https://i2.wp.com/media.boingboing.net/wp-content/uploads/2018/05/cool-background1.png?fit=1192%2C600&ssl=1);
+    border-radius: 20px;
+    width: 450px;
+    padding: 20px;
+    margin-top: 140px;
+    margin-left: 20px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.logoinfo:hover .logoinfos{
+    visibility: visible;
+}
+
+
+/* -------------------- landing page ends----------------------- */
+
+/* -------------------- file manager page ----------------------- */
+
+
+
+
+/* -------------------- filemanager page ends----------------------- */
