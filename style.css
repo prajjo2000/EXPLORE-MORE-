@@ -1,0 +1,89 @@
+@font-face{
+    font-family: head;
+    src: url(head.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: one;
+    src: url(one.otf) format("opentype");
+}
+.carasole{
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    height: 200px;
+    position: fixed;
+    z-index: 1;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.logodetails{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    position: fixed;
+    z-index: 2;
+    margin-left: 290px;
+    margin-top: 90px;
+    font-family: head;
+}
+
+.intro{
+    color: black;
+    font-family: one;
+    font-size: 70px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+    position: absolute;
+			top: 43%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+}
+
+.features{
+    font-family: one;
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 80px;
+}
+.bline{
+    color: red;
+    font-size: 40px;
+    font-family: head;
+    font-weight: bold;
+}
+.arrow{
+    height: 50px;
+    position: fixed;
+    z-index: 4;
+    margin-left: 1050px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.tobehover .infoexm{
+    position: fixed;
+    z-index: 4;
+    background-image: url(https://i2.wp.com/media.boingboing.net/wp-content/uploads/2018/05/cool-background1.png?fit=1192%2C600&ssl=1);
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 1180px;
+    margin-top: 180px;
+    width: 250px;
+
+    visibility: hidden;
+}
+
+.tobehover:hover .infoexm{
+    visibility: visible;
+}
