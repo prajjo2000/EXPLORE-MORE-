@@ -1,12 +1,15 @@
 @font-face{
     font-family: head;
-    src: url(head.ttf) format("truetype");
+    src: url(fonts/head.ttf) format("truetype");
 }
 
 @font-face{
     font-family: one;
-    src: url(one.otf) format("opentype");
+    src: url(fonts/one.otf) format("opentype");
 }
+
+/*------------------- landing page css ----------------------*/
+
 .carasole{
     height: 100vh;
     width: 100%;
@@ -110,7 +113,13 @@
 
 /* -------------------- file manager page ----------------------- */
 
-
-
+.parallax {
+    background-image: url("https://i2.wp.com/media.boingboing.net/wp-content/uploads/2018/05/cool-background1.png?fit=1192%2C600&ssl=1");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 /* -------------------- filemanager page ends----------------------- */

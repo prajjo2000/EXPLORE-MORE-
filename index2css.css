@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    background-image: url(https://wallpaperplay.com/walls/full/d/d/c/148337.jpg);
+}
+
+.logo{
+    height: 200px;
+    margin: 0px;
+}
+.page-header{
+    display: flex;
+}
+
+
+@font-face{
+    font-family: one;
+    src: url(fonts/one.otf) format("opentype");
+}
+
+.intro2{
+    font-family: one;
+    font-size: 70px;
+    color: red;
+    font-weight: bolder;
+    padding-top: 47px;
+}
